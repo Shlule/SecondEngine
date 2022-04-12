@@ -1,5 +1,6 @@
 #include "Window.h"
 #include"Log.h"
+#include<GL/glew.h>
 
 Window::Window(): SDLWindow(nullptr), width(WINDOW_WIDTH),height(WINDOW_HEIGHT)
 {}
@@ -10,7 +11,7 @@ bool Window::Initialize(){
 		Log::error(LogCategory::Video, "Unable to initialize SDL");
 		return false;
 	}
-	SDLWindow = SDL_CreateWindow("Wall Pong", 100, 100, width, height, 0);
+	SDLWindow = SDL_CreateWindow("Parallaxes", 100, 100, width, height, SDL_WINDOW_OPENGL);
 	if (!SDLWindow) {
 		Log::error(LogCategory::System, "Failed toCreate Window");
 		return false;

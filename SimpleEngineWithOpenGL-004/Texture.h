@@ -1,6 +1,6 @@
 #pragma once
 #include<string>
-#include"Renderer.h"
+#include"RendererSDL.h"
 using std::string;
 
 class Texture
