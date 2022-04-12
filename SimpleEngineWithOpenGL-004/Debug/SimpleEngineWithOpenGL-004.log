@@ -1,0 +1,22 @@
+﻿  Actor.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Window.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  Component.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Component.cpp(6,8): error C2039: 'addComponent' n'est pas membre de 'Actor'
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Actor.h(9): message : voir la déclaration de 'Actor'
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Component.cpp(11,8): error C2039: 'removeCOmponent' n'est pas membre de 'Actor'
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Actor.h(9): message : voir la déclaration de 'Actor'
+  Game.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Window.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  Log.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Log.h(4,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL_log.h' : No such file or directory
+  Main.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Window.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  Renderer.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Rectangle.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL_rect.h' : No such file or directory
+  Source.cpp
+  Timer.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Timer.cpp(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL_timer.h' : No such file or directory
+  Vector2.cpp
+  Window.cpp
+D:\Rogliano_Elouan\SimpleEngine\SimpleEngineWithOpenGL-004\Window.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'SDL.h' : No such file or directory
+  Génération de code en cours...
