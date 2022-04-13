@@ -94,6 +94,8 @@ void Game::load() {
 	Assets::loadTexture(renderer, "..\\Res\\Res_005-011\\Stars.png", "Stars");
 	Assets::loadTexture(renderer, "..\\Res\\Res_005-011\\Astroid.png", "Astroid");
 	Assets::loadTexture(renderer, "..\\Res\\Res_005-011\\Ship.png", "Ship");
+
+	Assets::loadShader("Res\Shaders\basic.vert", "Res\Shaders\basic.frag", "", "", "", "basic");
 	
 	
 

@@ -13,7 +13,7 @@ void Texture::unload(){
 		SDL_DestroyTexture(SDLTexture);
 	}
 }
-bool Texture::load(Renderer& renderer, const string& filenameP) {
+bool Texture::load(IRenderer& renderer, const string& filenameP) {
 	filename = filenameP;
 	//load from file
 

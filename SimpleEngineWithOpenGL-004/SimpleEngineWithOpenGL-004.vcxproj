@@ -28,7 +28,10 @@
     <ClInclude Include="Component.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="IRenderer.h" />
+    <ClInclude Include="Matrix4.h" />
+    <ClInclude Include="Quaternion.h" />
     <ClInclude Include="RendererOGL.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="InputComponent.h" />
     <ClInclude Include="Log.h" />
@@ -41,6 +44,7 @@
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
     <ClInclude Include="VertexArray.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
@@ -53,7 +57,10 @@
     <ClCompile Include="CircleCollision.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Matrix4.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
     <ClCompile Include="RendererOGL.cpp" />
+    <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="InputComponent.cpp" />
     <ClCompile Include="Log.cpp" />
@@ -66,8 +73,13 @@
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="Vector3.cpp" />
     <ClCompile Include="VertexArray.cpp" />
     <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic.frag" />
+    <None Include="basic.vert" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

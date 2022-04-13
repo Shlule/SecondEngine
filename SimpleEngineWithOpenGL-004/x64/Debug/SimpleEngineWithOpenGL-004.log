@@ -1,7 +1,4 @@
 ﻿  Actor.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,29): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(27,37): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(42,29): error C2535: 'RendererSDL &Game::getRenderer(void)' : fonction membre déjà définie ou déclarée
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(32): message : voir la déclaration de 'Game::getRenderer'
@@ -15,31 +12,13 @@ D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\IRenderer.h(22): mess
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(43,34): error C2653: 'Type' : n'est pas un nom de classe ni d'espace de noms
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(43,40): error C2065: 'SDL' : identificateur non déclaré
   AnimSpriteComponent.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
   Assets.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,29): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(27,37): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(7,37): error C2761: 'Texture Assets::loadTexture(void)' : la redéclaration du membre n'est pas autorisée
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(7,29): error C2065: 'Renderer' : identificateur non déclaré
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(7,39): error C2065: 'rendererP' : identificateur non déclaré
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(7,50): error C2059: erreur de syntaxe : 'const'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(8,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(8,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(29,45): error C2761: 'Texture Assets::LoadTextureFromFile(void)' : la redéclaration du membre n'est pas autorisée
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(29,37): error C2065: 'Renderer' : identificateur non déclaré
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(29,47): error C2065: 'rendererP' : identificateur non déclaré
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(29,58): error C2059: erreur de syntaxe : 'const'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(29,82): error C2143: erreur de syntaxe : absence de ';' avant '{'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(29,82): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(56,22): error C2084: la fonction 'void Assets::clear(void)' a déjà un corps
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.cpp(27): message : voir la définition précédente de 'clear'
   Astroid.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,29): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(27,37): error C2061: erreur de syntaxe : identificateur 'Renderer'
   BackGroundSpriteComponent.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\BackGroundSpriteComponent.h(22,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\BackGroundSpriteComponent.cpp(25,46): error C2761: 'void BackGroundSpriteComponent::draw(void)' : la redéclaration du membre n'est pas autorisée
@@ -48,9 +27,6 @@ D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\BackGroundSpriteCompo
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\BackGroundSpriteComponent.cpp(25,58): error C2143: erreur de syntaxe : absence de ';' avant '{'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\BackGroundSpriteComponent.cpp(25,58): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
   Game.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,29): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(27,37): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(42,29): error C2535: 'RendererSDL &Game::getRenderer(void)' : fonction membre déjà définie ou déclarée
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(32): message : voir la déclaration de 'Game::getRenderer'
@@ -64,33 +40,17 @@ D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\IRenderer.h(22): mess
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(43,34): error C2653: 'Type' : n'est pas un nom de classe ni d'espace de noms
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(43,40): error C2065: 'SDL' : identificateur non déclaré
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\BackGroundSpriteComponent.h(22,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(88,76): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(89,76): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(90,76): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(91,76): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(92,82): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(93,82): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(94,74): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(95,78): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(96,72): error C2660: 'Assets::loadTexture' : la fonction ne prend pas 3 arguments
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,17): message : voir la déclaration de 'Assets::loadTexture'
-  Ship.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(98,21): warning C4129: 'S' : caractère de séquence d'échappement non reconnu
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.cpp(98,47): warning C4129: 'S' : caractère de séquence d'échappement non reconnu
+  Matrix4.cpp
+  Quaternion.cpp
+  RendererOGL.cpp
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,29): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(27,37): error C2061: erreur de syntaxe : identificateur 'Renderer'
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\RendererOGL.cpp(94,21): error C2660: 'SpriteComponent::draw' : la fonction ne prend pas 1 arguments
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,15): message : voir la déclaration de 'SpriteComponent::draw'
+  Ship.cpp
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
   Main.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,29): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(27,37): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(42,29): error C2535: 'RendererSDL &Game::getRenderer(void)' : fonction membre déjà définie ou déclarée
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(32): message : voir la déclaration de 'Game::getRenderer'
@@ -104,15 +64,11 @@ D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\IRenderer.h(22): mess
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(43,34): error C2653: 'Type' : n'est pas un nom de classe ni d'espace de noms
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(43,40): error C2065: 'SDL' : identificateur non déclaré
   RendererSDL.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\RendererSDL.cpp(47,21): error C2660: 'SpriteComponent::draw' : la fonction ne prend pas 1 arguments
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,15): message : voir la déclaration de 'SpriteComponent::draw'
   SpriteComponent.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.h(14,20): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(14,29): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Assets.h(27,37): error C2061: erreur de syntaxe : identificateur 'Renderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(42,29): error C2535: 'RendererSDL &Game::getRenderer(void)' : fonction membre déjà définie ou déclarée
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(32): message : voir la déclaration de 'Game::getRenderer'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Game.h(51,14): error C2259: 'RendererSDL' : impossible d'instancier une classe abstraite
@@ -130,14 +86,7 @@ D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.cpp(2
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.cpp(26,48): error C2143: erreur de syntaxe : absence de ';' avant '{'
 D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\SpriteComponent.cpp(26,48): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
   Texture.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.h(13,12): error C2061: erreur de syntaxe : identificateur 'Renderer'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.cpp(16,28): error C2761: 'bool Texture::load(void)' : la redéclaration du membre n'est pas autorisée
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.cpp(16,20): error C2065: 'Renderer' : identificateur non déclaré
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.cpp(16,30): error C2065: 'renderer' : identificateur non déclaré
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.cpp(16,40): error C2059: erreur de syntaxe : 'const'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.cpp(16,65): error C2143: erreur de syntaxe : absence de ';' avant '{'
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.cpp(16,65): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
-  VertexArray.cpp
-D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\VertexArray.cpp(14,49): warning C4244: 'argument' : conversion de 'double' en 'GLsizeiptr', perte possible de données
-  Window.cpp
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\Texture.cpp(30,53): error C2039: 'toSDLRenderer' n'est pas membre de 'IRenderer'
+D:\Rogliano_Elouan\SecondEngine\SimpleEngineWithOpenGL-004\IRenderer.h(5): message : voir la déclaration de 'IRenderer'
+  Vector3.cpp
   Génération de code en cours...
