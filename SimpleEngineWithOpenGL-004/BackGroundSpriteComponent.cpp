@@ -22,11 +22,11 @@ void BackGroundSpriteComponent::update(float dt) {
 		}
 	}
 }
-void BackGroundSpriteComponent::draw(Renderer& renderer) {
+void BackGroundSpriteComponent::draw(IRenderer& renderer) {
 	//draw each background textures
 	for (auto& bg : textures) {
 		owner.setPosition(Vector2(bg.offset.x, bg.offset.y));
-		renderer.drawSprite(owner, bg.texture, Rectangle::nullRect, Vector2::zero, Renderer::Flip::None);
+		renderer.drawSprite(owner, bg.texture, Rectangle::nullRect, Vector2::zero, IRenderer::Flip::None);
 	}
 }
 void BackGroundSpriteComponent::setTextures(const vector<Texture*>& texturesP) {

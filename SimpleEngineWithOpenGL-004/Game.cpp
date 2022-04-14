@@ -66,6 +66,7 @@ void Game::update(float dt) {
 	// Move PendingActors to Actors
 	//pending actor stack the actor wich was create by an other actor during the update loop
 	for (auto pendingActor : pendingActors) {
+		pendingActor->computeWorldTransform();
 		actors.emplace_back(pendingActor);
 	}
 	pendingActors.clear();
@@ -96,6 +97,7 @@ void Game::load() {
 	Assets::loadTexture(renderer, "..\\Res\\Res_005-011\\Ship.png", "Ship");
 
 	Assets::loadShader("Res\Shaders\basic.vert", "Res\Shaders\basic.frag", "", "", "", "basic");
+	
 	
 	
 

@@ -24,17 +24,19 @@ Texture& Assets::getTexture(const string& name) {
 	return textures[name];
 }
 
-void Assets::clear() {
-	//(properly delete all texture
-	for (auto iter : textures)
-		iter.second.unload();
-	textures.clear();
-}
 
 Texture Assets::LoadTextureFromFile(IRenderer& rendererP, const string& filename) {
-	Texture texture;
-	texture.load(rendererP, filename);
-	return texture;
+    Texture texture;
+    // Not very elegant, but simpler architecture
+    if (rendererP.type() == IRenderer::Type::SDL)
+    {
+        //texture.loadSDL(dynamic_cast<RendererSDL&>(renderer), filename);
+    }
+    else if (rendererP.type() == IRenderer::Type::OGL)
+    {
+        texture.loadOGL(dynamic_cast<RendererOGL&>(rendererP), filename);
+    }
+    return texture;
 }
 
 

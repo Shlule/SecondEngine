@@ -21,9 +21,11 @@ public:
 
 	void addSprite(class SpriteComponent* sprite);
 	void removeSprite(class SpriteComponent* sprite);
+
 	void drawSprite(const Actor& actor, const Texture& tex, Rectangle srcRect, Vector2 origin, Flip flip)const;
 
 	void close();
+
 	IRenderer::Type type() { return Type::OGL; }
 
 private:

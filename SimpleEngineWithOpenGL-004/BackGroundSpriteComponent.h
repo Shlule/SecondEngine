@@ -19,7 +19,7 @@ public:
 	void setScrolledSpeed(float scrollSpeedP);
 
 	void update(float dt)override;
-	void draw(Renderer& renderer)override;
+	void draw(IRenderer& renderer)override;
 
 private:
 	struct BGTexture {

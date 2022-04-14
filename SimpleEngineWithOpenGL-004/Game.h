@@ -1,6 +1,7 @@
 #pragma once
 #include"window.h"
 #include"RendererSDL.h"
+#include"RendererOGL.h"
 #include<vector>
 #include"Vector2.h"
 #include"Actor.h"
@@ -28,8 +29,6 @@ private:
 	Game() :isRunning(true), isUpdatingActors(false){}
 
 public:
-
-	RendererSDL& getRenderer() { return renderer; }
 	bool initialize();
 	void loop();
 	void close();
@@ -39,8 +38,8 @@ public:
 
 	void addActor(Actor* actor);
 	void removeActor(Actor* actor);
-	RendererSDL& getRenderer() { return renderer; }
-	IRenderer::Type type() { return Type::SDL; }
+	RendererOGL& getRenderer() { return renderer; }
+
 private:
 	void processInput();
 	void update(float dt);
@@ -48,7 +47,7 @@ private:
 
 
 	Window window;
-	RendererSDL renderer;
+	RendererOGL renderer;
 	bool isRunning;
 
 	bool isUpdatingActors;

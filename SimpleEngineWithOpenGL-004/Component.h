@@ -18,6 +18,8 @@ public:
 
 	virtual void processInput(const Uint8* keyState);
 
+	virtual void onUpdateWorldTransform() {}
+
 protected:
 	Actor& owner;
 	int updateOrder;

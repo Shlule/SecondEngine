@@ -1,6 +1,7 @@
 #pragma once
 #include<Vector>
 #include"Vector2.h"
+#include"Matrix4.h"
 #include<SDL_stdinc.h>
 using std::vector;
 
@@ -19,6 +20,9 @@ public:
 	virtual~Actor();
 	Actor(const Actor&) = delete;
 	Actor& operator=(const Actor&) = delete;
+
+	const Matrix4& getWorldTransform() const { return worldTransform; }
+	void computeWorldTransform();
 
 	Game& getGame() const { return game; }
 	const ActorState getState() const { return state; }
@@ -42,6 +46,8 @@ public:
 	virtual void actorInput(const Uint8* keyState);
 
 private:
+	Matrix4 worldTransform;
+	bool mustRecomputeWorldTransform;
 	Game& game;
 	ActorState state;
 	Vector2 position;

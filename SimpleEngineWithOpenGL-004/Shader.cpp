@@ -204,6 +204,18 @@ void Shader::checkShaderErrors(GLuint shader, std::string shaderType)
     }
 }
 
+void Shader::setVector3f(const GLchar* name, GLfloat x, GLfloat y, GLfloat z) {
+    glUniform3f(glGetUniformLocation(id, name), x, y, z);
+}
+
+void Shader::setVector3f(const GLchar* name, const Vector3& value) {
+    glUniform3f(glGetUniformLocation(id, name), value.x, value.y, value.z);
+}
+
+void Shader::setMatrix4(const GLchar* name, const Matrix4& matrix) {
+    glUniformMatrix4fv(glGetUniformLocation(id, name), 1, GL_TRUE, matrix.getAsFloatPtr());
+}
+
 const char* Shader::GLTypeToString(GLenum type)
 {
     switch (type)
