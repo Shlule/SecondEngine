@@ -77,10 +77,6 @@
     <ClCompile Include="VertexArray.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="basic.frag" />
-    <None Include="basic.vert" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{5D25C4C0-9D93-4905-B8E4-80622E19DBFE}</ProjectGuid>

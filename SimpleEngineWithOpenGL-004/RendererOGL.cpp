@@ -18,13 +18,16 @@ bool RendererOGL::initialize(Window& windowP) {
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
+
 	//request a color buffer with 8 byte per rgba channel;
 	SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
 	SDL_GL_SetAttribute(SDL_GL_GREEN_SIZE, 8);
 	SDL_GL_SetAttribute(SDL_GL_BLUE_SIZE, 8);
 	SDL_GL_SetAttribute(SDL_GL_ALPHA_SIZE, 8);
+
 	//enable double bufferring
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+
 	//force openGL to use hardware acceleration
 	SDL_GL_SetAttribute(SDL_GL_ACCELERATED_VISUAL, 1);
 
@@ -74,8 +77,7 @@ void RendererOGL::drawSprite(const Actor& actor, const Texture& tex, Rectangle s
 }
 
 void RendererOGL::endDraw() {
-	SDL_GL_DeleteContext(context);
-	delete vertexArray;
+	SDL_GL_SwapWindow(window->getSDLWindow());
 }
 
 void RendererOGL::addSprite(SpriteComponent* sprite) {
